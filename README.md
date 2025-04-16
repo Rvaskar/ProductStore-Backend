@@ -9,4 +9,5 @@ In the project directory, you can run:
 ### `required Packages`
 - npm i express dotenv cors helmet morgan @neondatabase/serverless @arcjet/node
 - helmet >>  helmet is security middleware that helps you protect your app by setting various HTTP headers
-- morgan >>   log the request
+- morgan >>  Log incoming HTTP requests (method, URL, status, response time, etc.)
+- cors >>  Enable Cross-Origin Resource Sharing to allow frontend and backend to communicate
